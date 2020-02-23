@@ -1,0 +1,6 @@
+10 max pages generated data, 
+- before training: 
+At iteration 0, stage 0, Eval Char error rate=0.082586852, Word error rate=0.3216919
+
+- after training:
+At iteration 0, stage 0, Eval Char error rate=0.019406183, Word error rate=0.071513002

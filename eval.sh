@@ -1,3 +1,7 @@
-lstmeval --model output/pubg_checkpoint \
-  --traineddata tesseract/tessdata/eng.traineddata \
-  --eval_listfile train/eng.training_files.txt
+# lstmeval --model swe.lstm \
+#  --traineddata tesseract/tessdata/swe.traineddata \
+#  --eval_listfile train/swe.training_files.txt
+
+lstmeval --model ./output/tratex_checkpoint \
+  --traineddata tesseract/tessdata/swe.traineddata \
+  --eval_listfile train/swe.training_files.txt
